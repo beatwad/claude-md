@@ -31,7 +31,7 @@ When editing existing code:
 
 - Change only the parts that are ABSOLUTELY necessary to change.
 - Don't "improve" adjacent code, comments, or formatting.
-- Don't refactor things that aren't broken.
+- Don't refactor things that aren't broken. If a refactor seems necessary, propose it - don't do it without permission.
 - Match existing style, even if you'd do it differently.
 - If you notice unrelated dead code, mention it - don't delete it.
 
@@ -66,6 +66,7 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 - Never add `Co-Authored-By` trailers to git commits.
 - Never commit until you're asked.
+- This overrides `/implement`'s commit step: stop after code review, don't commit.
 
 ## 6. Response Style
 
